@@ -1,0 +1,53 @@
+body {
+	background-image: url("/resources/Backgrounds/Background - Noise 2.png");
+	font-size: 1rem;
+}
+
+body > .container-fluid {
+	max-width: 1280px;
+	min-width: 360px;
+}
+header {
+	background-color: white;
+}
+
+.card {
+	margin-top: .75rem;
+	margin-bottom: .75rem;
+	word-wrap: break-word;
+}
+.btn-outline-primary {
+	background-color: white !important;
+}
+
+.toggle.ios, .toggle-on.ios, .toggle-off.ios {
+	border-radius: 20px; 
+}
+.toggle.ios .toggle-handle { 
+	border-radius: 20px; 
+}
+
+img {
+	margin: auto;
+}
+
+.card-img-overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	opacity: 1;
+	transition: .5s ease;
+	
+	background: red; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .5)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .5)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .5)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .5)); /* Standard syntax */
+}
+
+.card-img-overlay > .card-title {
+	font-size: 3rem;
+	position: absolute;
+	bottom: 1.25rem;
+	right: 1.25rem;
+}
